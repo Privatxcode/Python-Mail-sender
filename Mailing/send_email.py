@@ -8,9 +8,9 @@ def read_html_file(file_path):
         return file.read()
 
 # Informations de l'email
-from_email = "privt9235@gmail.com"
-to_emails = "privat.daagbo@gozem.co"
-subject = "Promotion de Glace d'été"
+from_email = "adresse mail "
+to_emails = "destinataire"
+subject = "Exemple de sujet"
 
 # Lire le contenu HTML du fichier
 html_content = read_html_file("index.html")
@@ -26,7 +26,7 @@ html_part = MIMEText(html_content, "html")
 message.attach(html_part)
 
 # Mot de passe (utilisez un mot de passe d'application si 2FA est activé)
-password = "zmtl ywkv mykm tnfx"
+password = "mot de passe generer"
 
 # Envoyer l'email
 try:
